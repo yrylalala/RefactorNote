@@ -1,0 +1,20 @@
+@startuml
+title 重构第一版示例
+
+Movie "1" <-- "*" Rental
+Rental "*" <-- "1" Customer
+
+class Movie {
+==
+priceCode:int
+}
+
+class Rental {
+daysRented:int
+}
+
+class Customer {
+statement()
+}
+
+@enduml
