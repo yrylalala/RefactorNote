@@ -1,5 +1,7 @@
+package refactor1;
+
 /**
- * @ClassName: Rental
+ * @ClassName: originDemo.Rental
  * @Description: 租赁 表示某个顾客租了一部影片
  * @Author: Bai
  * @Date: 2022/12/14 00:29
