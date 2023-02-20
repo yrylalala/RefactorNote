@@ -1,4 +1,4 @@
-package refactor1;
+package refactor5;
 
 import java.util.Enumeration;
 import java.util.Vector;
@@ -33,22 +33,16 @@ public class Customer {
         Enumeration rentals = _rentals.elements();
         String result = "Rental Record for " + getName() + "\n";
         while (rentals.hasMoreElements()) {
-            double thisAmount = 0;
             Rental each = (Rental) rentals.nextElement();
 
-            // 确定每行的金额
-            thisAmount = amountFor(each);
-
             // 添加频繁的租赁点
-            frequentRenterPoints++;
-            // 为两天的新版本租赁添加奖金
-            if ((each.getMovie().getPriceCode() == Movie.NEW_RELEASE) &&
-                    each.getDaysRented() > 1) frequentRenterPoints++;
+            // 提取 常客积分计算代码
+            frequentRenterPoints += each.getFrequentRenterPoints();
 
             //  显示此租金的数字
             result += "\t" + each.getMovie().getTitle() + "\t" +
-                    String.valueOf(thisAmount) + "\n";
-            totalAmount += thisAmount;
+                    String.valueOf(each.getCharge()) + "\n";
+            totalAmount += each.getCharge();
         }
 
         // 添加页脚行
@@ -57,27 +51,6 @@ public class Customer {
                 " frequent renter points";
 
         return result;
-    }
-
-    // 提取"逻辑泥团"
-    private double amountFor(Rental each) {
-        double thisAmount = 0;
-        switch (each.getMovie().getPriceCode()) {
-            case Movie.REGULAR:
-                thisAmount += 2;
-                if (each.getDaysRented() > 2)
-                    thisAmount += (each.getDaysRented() - 2) * 1.5;
-                break;
-            case Movie.NEW_RELEASE:
-                thisAmount += each.getDaysRented() * 3;
-                break;
-            case Movie.CHILDRENS:
-                thisAmount += 1.5;
-                if (each.getDaysRented() > 3)
-                    thisAmount += (each.getDaysRented() - 3) * 1.5;
-                break;
-        }
-        return thisAmount;
     }
 
 }
