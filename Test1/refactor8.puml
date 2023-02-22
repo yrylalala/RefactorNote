@@ -1,0 +1,26 @@
+@startuml
+title 重构 refactor8 类图
+
+Movie "1" <-- Rental
+Rental "*" <--  Customer
+
+class Movie {
+priceCode:int
+getCharge(days:int)
+getFrequentRenterPoints(days:int)
+}
+
+class Rental {
+daysRented:int
+getCharge()
+getFrequentRenterPoints()
+}
+
+class Customer {
+statement()
+htmlStatement()
+getTotalCharge()
+getTotalFrequentRenterPoints()
+}
+
+@enduml
