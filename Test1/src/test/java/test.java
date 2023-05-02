@@ -3,11 +3,11 @@ import originDemo.Movie;
 import originDemo.Rental;
 
 /**
- * @ClassName: test
- * @Description: 第一章测试类
- * @Author: Bai
- * @Date: 2023/2/19 16:41
- * @Version: 1.0
+ * @className: test
+ * @description: 第一章测试类
+ * @author:  Bai
+ * @date: 2023/2/19 16:41
+ * @version: 1.0
  */
 public class test {
 

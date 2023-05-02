@@ -1,11 +1,11 @@
 package refactor2;
 
 /**
- * @ClassName: originDemo.Movie
- * @Description: 影片
- * @Author: Bai
- * @Date: 2022/12/14 00:22
- * @Version: 1.0
+ * @className: originDemo.Movie
+ * @description: 影片
+ * @author:  Bai
+ * @date: 2022/12/14 00:22
+ * @version: 1.0
  */
 public class Movie {
 

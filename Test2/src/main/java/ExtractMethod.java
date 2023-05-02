@@ -1,9 +1,9 @@
 /**
- * @ClassName: ExtractMethod
- * @Description: Extract Method P110
- * @Author: Bai
- * @Date: 2023/2/19 17:10
- * @Version: 1.0
+ * @className: ExtractMethod
+ * @description: 6.1 Extract Method P110
+ * @author:  Bai
+ * @date: 2023/2/19 17:10
+ * @version: 1.0
  */
 public class ExtractMethod {
 

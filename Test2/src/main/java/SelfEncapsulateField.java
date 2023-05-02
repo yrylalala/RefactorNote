@@ -1,9 +1,9 @@
 /**
- * @ClassName: SelfEncapsulateField
- * @Description: 自分装字段
- * @Author: Bai
- * @Date: 2023/2/23 00:17
- * @Version: 1.0
+ * @className: SelfEncapsulateField
+ * @description: 自分装字段
+ * @author:  Bai
+ * @date: 2023/2/23 00:17
+ * @version: 1.0
  */
 public class SelfEncapsulateField {
     private int _low, _high;

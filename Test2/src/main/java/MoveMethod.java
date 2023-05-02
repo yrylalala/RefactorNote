@@ -1,9 +1,9 @@
 /**
- * @ClassName: MoveMethod
- * @Description: 搬移函数
- * @Author: Bai
- * @Date: 2023/2/23 00:51
- * @Version: 1.0
+ * @className: MoveMethod
+ * @description: 搬移函数
+ * @author:  Bai
+ * @date: 2023/2/23 00:51
+ * @version: 1.0
  */
 public class MoveMethod {
 

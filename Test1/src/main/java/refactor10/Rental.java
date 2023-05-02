@@ -1,11 +1,11 @@
 package refactor10;
 
 /**
- * @ClassName: originDemo.Rental
- * @Description: 租赁 表示某个顾客租了一部影片
- * @Author: Bai
- * @Date: 2022/12/14 00:29
- * @Version: 1.0
+ * @className: originDemo.Rental
+ * @description: 租赁 表示某个顾客租了一部影片
+ * @author:  Bai
+ * @date: 2022/12/14 00:29
+ * @version: 1.0
  */
 public class Rental {
 

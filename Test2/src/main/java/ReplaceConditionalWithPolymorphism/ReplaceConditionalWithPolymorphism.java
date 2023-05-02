@@ -1,11 +1,11 @@
 package ReplaceConditionalWithPolymorphism;
 
 /**
- * @ClassName: ReplaceConditionalWithPolymorphism.ReplaceConditionalWithPolymorphism
- * @Description: 以多态取代表达式
- * @Author: Bai
- * @Date: 2023/2/23 00:59
- * @Version: 1.0
+ * @className: ReplaceConditionalWithPolymorphism.ReplaceConditionalWithPolymorphism
+ * @description: 以多态取代表达式
+ * @author:  Bai
+ * @date: 2023/2/23 00:59
+ * @version: 1.0
  */
 public class ReplaceConditionalWithPolymorphism {
     private static final int EUROPEAN = 1;

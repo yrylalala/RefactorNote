@@ -4,11 +4,11 @@ import java.util.Enumeration;
 import java.util.Vector;
 
 /**
- * @ClassName: originDemo.Customer
- * @Description: 顾客
- * @Author: Bai
- * @Date: 2022/12/14 00:35
- * @Version: 1.0
+ * @className: originDemo.Customer
+ * @description: 顾客
+ * @author:  Bai
+ * @date: 2022/12/14 00:35
+ * @version: 1.0
  */
 public class Customer {
     private String _name;

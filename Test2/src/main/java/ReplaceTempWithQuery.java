@@ -1,9 +1,9 @@
 /**
- * @ClassName: ReplaceTempWithQuery
- * @Description: 以查询取代临时变量
- * @Author: Bai
- * @Date: 2023/2/20 01:35
- * @Version: 1.0
+ * @className: ReplaceTempWithQuery
+ * @description: 以查询取代临时变量
+ * @author:  Bai
+ * @date: 2023/2/20 01:35
+ * @version: 1.0
  */
 public class ReplaceTempWithQuery {
 
